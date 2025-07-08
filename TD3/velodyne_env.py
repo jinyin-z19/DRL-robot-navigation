@@ -73,8 +73,8 @@ class GazeboEnv:
         self.goal_x = 1
         self.goal_y = 0.0
 
-        self.upper = 5.0
-        self.lower = -5.0
+        self.upper = 1.0
+        self.lower = -1.0
         self.velodyne_data = np.ones(self.environment_dim) * 10
         self.last_odom = None
 
